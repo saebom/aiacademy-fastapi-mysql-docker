@@ -3,3 +3,8 @@ class User(object):
         self.id = id
         self.password = password
         
+    def id_view(self):
+        return print(self.id)
+    
+    def pw_view(self):
+        return print(self.password)
