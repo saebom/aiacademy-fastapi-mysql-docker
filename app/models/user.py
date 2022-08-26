@@ -8,3 +8,5 @@ class User(object):
     
     def pw_view(self):
         return print(self.password)
+    
+    
